@@ -5,7 +5,7 @@
   <input type="button" value="検索" onclick="codeAddress()">
 
   <!-- 地図情報を保存するフォーム -->
-  <%= form_for @spot do |f| %>
+  <%= form_for @map do |f| %>
   <!-- 検索値を隠しデータとして送信-->
   <input type="hidden" name="map[address]" id="hidden_address">
   <%= f.label :spot_name, "現場名"%>
