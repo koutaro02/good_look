@@ -4,7 +4,6 @@ class Map < ApplicationRecord
 
   with_options presence: true do
     validates :spot_name
-    validates :address
     validates :latitude
     validates :longitude
 
