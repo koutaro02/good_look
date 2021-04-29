@@ -1,0 +1,75 @@
+<%= render "shared/header" %>
+<div class='main'>
+ <% unless user_signed_in? %>
+  <div class='title-contens'>
+    <h2 class='service-title'>
+      建設業の明日を変える
+    </h2>
+    <p class='service-explain'>
+      現場の全てがわかる
+    </p>
+    <p class='service-explain'>
+      施工管理アプリです
+    </p>
+  </div>
+<%# 上部は帯部分 %>
+
+<%# 横のメニューバー %>
+ <%  else %>
+  <div class='menu-bar'>
+    <div class='side-bar'>
+      <div class='spot-side'>
+        <div class='spot-name'>
+          現場名
+        </div>
+        <div class='spot-name-list'>
+          すき家 名古屋港店
+        </div>
+        <div class='spot-name-list'>
+          中村区 3-5-25
+        </div>
+      </div>
+    </div>
+<%# 横のメニューバー %>
+    
+<%# 内容の表示%>
+  <%# 現場の詳細 %>
+    <div class='main-bar'>
+      <div class='top-spot'>
+        <div class='spot-explanation'>
+          すき家 港店
+        </div>
+      </div>
+      <div class='center-spot'>
+        <div class='spot-image'>
+          
+        </div>
+        <div class='spot-map'>
+          
+        </div>
+      </div>
+      <div class='bottom-spot'>
+        <div class='spot-text'>
+
+        </div>
+        <div class='spot-user-name'>
+        </div>
+      </div>
+  <%# 現場の詳細%>
+
+      <div class='plan-detail'>
+        <div class='plan-user-name'>
+        </div>
+        <div class='plan-image'>
+        </div>
+        <div class='plan-content'>
+        </div>
+      </div>
+      <div class='form'>
+      </div>
+    </div>
+  </div>
+ <% end %>
+<%# 内容の表示 %>
+
+</div>

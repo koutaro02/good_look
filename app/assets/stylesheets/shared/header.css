@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.top-page-header{
+  width: 100vw;
+  background-color:white;
+}
+
+.page-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.good-look-icon{
+  width: 15vw;
+}
+
+.nav{
+  width: 100%;
+  font-size: 20px;
+}
+
+.lists{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.login{
+  text-decoration: none;
+  margin-right: 3vw;
+  color: #333333;
+  
+}
+
+.sign-up{
+  text-decoration: none;
+  margin-right: 3vw;
+  color: #333333;
+  
+}
+
+.current-name {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: #333333;
+
+}
+
+.logout {
+  text-decoration: none;
+  color: #333333;
+  margin-right: 3vw;
+}
+
+.new-plan {
+  display: flex;
+  justify-content: center;
+}
+
+.plan-btn{
+  text-decoration: none;
+  font-size: 25px;
+  color: #333333;
+  margin-bottom: 5vh;
+  border: 3px solid orange;
+}
+
+
